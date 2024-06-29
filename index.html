@@ -10,9 +10,21 @@
 </head>
 
 <body>
+<div>
+  <label for="sizeInput">Maze Size:
+    <input type="number" id="sizeInput" value="10" required/>
+  </label> <br>
+  <input type="button" value="Generate" id="generateBtn"/>
+  <input type="button" value="Reset" id="resetBtn" /> <br>
 
-  <p class="">Hello world! This is HTML5 Boilerplate</p>
-  <script src="js/app.js"></script>
+  <ul>
+    <li>Enter maze size, default is 10.</li>
+    <li>Click 'Generate' to generate a new maze</li>
+    <li>Click 'Reset' to clear the maze</li>
+  </ul>
+</div>
+<canvas id="mazeCanvas"></canvas>
+<script src="js/app.js" type="module"></script>
 
 </body>
 
