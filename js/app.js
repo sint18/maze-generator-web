@@ -1,7 +1,5 @@
 import {createMaze} from "./mazeGenerator.mjs";
 
-const canvas = document.getElementById('mazeCanvas')
-
 const sizeInput = document.getElementById('sizeInput')
 const generateBtn = document.getElementById('generateBtn')
 const messageDiv = document.getElementById('message')
